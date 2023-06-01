@@ -1,4 +1,4 @@
-import { PayloadAction, createSlice } from "@reduxjs/toolkit"
+import { createSlice } from "@reduxjs/toolkit"
 import Rozetka from '../images/rozetka.png';
 import Moyo from '../images/moyo.png';
 import Laptop from '../images/Laptop.png';
