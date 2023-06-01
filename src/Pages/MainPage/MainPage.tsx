@@ -6,7 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 import { useAppSelector } from '../../app/hooks';
 import './mainPage.css'
 import { ProductList } from '../../components/ProductList/ProductList';
-import Cart from '../CartPage/CartPage';
+import { Cart } from '../CartPage/CartPage';
 import { Header } from '../../components/Header';
 import { Footer } from '../../components/Footer';
 
@@ -31,10 +31,9 @@ export default function MainPage() {
 
             <Route path="/Moyo" element={<ProductList list={MoyoStore}/>} />
 
-            <Route path="/" element={<Catalog list={shops}/>} />
-
             <Route path="/cart" element={<Cart/>} />
 
+            <Route path="/" element={<Catalog list={shops}/>} />
           </Routes>
         </Container>
       </main>

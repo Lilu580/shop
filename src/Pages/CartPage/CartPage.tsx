@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme: Theme) => ({
   },
 }));
 
-const Cart = () => {
+export const Cart: React.FC = () => {
   const classes = useStyles();
   const { products } = useAppSelector(state => state.shopCart);
   const dispatch = useAppDispatch();
@@ -59,5 +59,3 @@ const Cart = () => {
     </div>
   );
 };
-
-export default Cart;
