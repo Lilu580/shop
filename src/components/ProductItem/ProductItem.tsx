@@ -1,4 +1,4 @@
-import { Product } from "../../types/shop"
+import { Product } from "../../types/product"
 import Grid from '@mui/material/Grid';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';

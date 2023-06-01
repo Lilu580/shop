@@ -1,8 +1,9 @@
-import { createSlice } from "@reduxjs/toolkit"
+import { PayloadAction, createSlice } from "@reduxjs/toolkit"
 import Rozetka from '../images/rozetka.png';
 import Moyo from '../images/moyo.png';
 import Laptop from '../images/Laptop.png';
 import Phone from '../images/Phone.png';
+
 
 const shopSlice = createSlice({
   name: "shop",
@@ -55,7 +56,6 @@ const shopSlice = createSlice({
     ],
   },
   reducers: {
-  }
-})
+}})
 
 export default shopSlice.reducer

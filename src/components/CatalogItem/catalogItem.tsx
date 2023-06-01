@@ -1,4 +1,4 @@
-import { Product, Shop } from "../../types/shop"
+import { Product } from "../../types/product"
 import Grid from '@mui/material/Grid';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography';
 import CardActions from '@mui/material/CardActions';
 import { Link } from 'react-router-dom';
 import Button from '@mui/material/Button';
+import { Shop } from "../../types/shop";
 type Props = {
   card: Shop | Product
 }

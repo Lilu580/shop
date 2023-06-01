@@ -10,6 +10,8 @@ export const Footer = () => (
       alignItems: 'center', 
       justifyContent: 'space-between',
       position: 'fixed',
+      left: '0',
+      right: '0',
       bottom: '0',
     }} 
     component="footer"

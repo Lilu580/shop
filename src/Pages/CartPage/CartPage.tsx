@@ -23,6 +23,8 @@ export const Cart: React.FC = () => {
 
   const cartItems = products;
 
+  console.log(products);
+
   const calculateTotal = () => {
     return cartItems.reduce((total, item) => total + item.price, 0);
   };
@@ -30,7 +32,6 @@ export const Cart: React.FC = () => {
   const handleDeleteItem = (itemId: number) => {
     dispatch(removeItem(itemId));
   };
-
   return (
     <div className={classes.root}>
       <Typography variant="h6" gutterBottom>
