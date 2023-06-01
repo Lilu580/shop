@@ -1,0 +1,48 @@
+{
+  "shops": [
+    {
+      "id": 2,
+      "name": "Rozetka",
+      "image": "Rozetka",
+      "description": "Here you can buy smartphones, laptops, etc.",
+      "products": [
+        {
+          "id": 1,
+          "name": "laptop",
+          "image": "Laptop",
+          "description": "laptop Asus",
+          "price": 500
+        },
+        {
+          "id": 3,
+          "name": "Phone",
+          "image": "Phone",
+          "description": "Phone Samsung",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Moyo",
+      "image": "Moyo",
+      "description": "Here you can buy smartphones, laptops, etc.",
+      "products": [
+        {
+          "id": 5,
+          "name": "Phone",
+          "image": "Phone",
+          "description": "Phone Samsung",
+          "price": 200
+        },
+        {
+          "id": 6,
+          "name": "laptop",
+          "image": "Laptop",
+          "description": "laptop Asus",
+          "price": 500
+        }
+      ]
+    }
+  ]
+}
