@@ -8,7 +8,9 @@ export const Footer = () => (
       p: 6, 
       display: 'flex', 
       alignItems: 'center', 
-      justifyContent: 'space-between'
+      justifyContent: 'space-between',
+      position: 'fixed',
+      bottom: '0',
     }} 
     component="footer"
   >
